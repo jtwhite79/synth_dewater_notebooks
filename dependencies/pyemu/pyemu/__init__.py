@@ -27,7 +27,7 @@ from .emulators import (
                       
                       #transformers
                       BaseTransformer, Log10Transformer,
-                      RowWiseMinMaxScaler, StandardScalerTransformer, NormalScoreTransformer, SklearnTransformer,
+                      RowWiseMinMaxScaler, StandardScalerTransformer, NormalScoreTransformer,
                       TransformerPipeline, AutobotsAssemble)
 #from .prototypes import *
 try:
@@ -66,7 +66,6 @@ __all__ = [
     "Log10Transformer", 
     "RowWiseMinMaxScaler",
     "StandardScalerTransformer",
-    "SklearnTransformer",
     "NormalScoreTransformer",
     "TransformerPipeline",
     "AutobotsAssemble",
