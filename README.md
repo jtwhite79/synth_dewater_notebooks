@@ -1,4 +1,4 @@
-![Synthetic Dewatering Domain](assets/domain.pdf)
+![Synthetic Dewatering Domain](assets/domain.jpg)
 
 # Theory and Practice of Applied Predictive Groundwater Modeling
 Materials and tutorials for the synthetic dewatering model of White and others (2025)
