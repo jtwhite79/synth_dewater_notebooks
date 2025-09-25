@@ -8,7 +8,7 @@ cwd = os.getcwd()
 clear = False
 pdf = False
 html = False
-allow_errors = True
+allow_errors = False
 
 def run_nb(nb_file, nb_dir="."): 
     os.chdir(nb_dir)
@@ -32,9 +32,12 @@ def run_nb(nb_file, nb_dir="."):
     return
 
 nb_dir = "."
-nb_file = "01_pstfrom.ipynb"
+nb_file = "00_ladestapada.ipynb"
 run_nb(nb_file, nb_dir)
 
+nb_dir = "."
+nb_file = "01_pstfrom.ipynb"
+run_nb(nb_file, nb_dir)
 
 nb_file = "02_prior_mc_and_truth.ipynb"
 run_nb(nb_file, nb_dir)

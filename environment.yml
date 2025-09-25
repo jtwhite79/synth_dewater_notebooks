@@ -19,10 +19,13 @@ dependencies:
   - psutil
   - git
   - nbconvert
+  - hdf5
+  - modflowapi
   - pip
   - pip:
        - -e ./dependencies/flopy
        - -e ./dependencies/pyemu
        - pypestutils == 0.3.0
+       - mf6adj
 
 
