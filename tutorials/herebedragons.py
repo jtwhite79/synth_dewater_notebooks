@@ -94,3 +94,15 @@ def dir_cleancopy(org_d, new_d, delete_orgdir=False):
     #prep_bins(new_d)
     return
 
+def apply_isopp_on_catfield():
+   mlt_file = os.path.join("mult","npfkpp_inst0_pilotpoints.csv")
+   arr_file = os.path.join("model.npf_k.txt")
+   assert os.path.exists(mlt_file)
+   assert os.path.exists(arr_file)
+
+   arr = np.loadtxt(arr_file)
+   mean = arr.mean()
+
+   mlt = np.loadtxt(mlt_file)
+   arr[arr<mean] *= mlt[arr<mean]
+   np.savetxt(arr_file,arr)
