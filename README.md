@@ -3,32 +3,6 @@
 # Theory and Practice of Applied Predictive Groundwater Modeling
 Materials and tutorials for the synthetic dewatering model of White and others (2025)
 
-Materials are provided in English and Spanish!
-
-
-
-
-## Instrucciones de instalación
-
-**Descarga el repositorio del curso:**
-
-Puedes hacerlo de dos maneras:
- - (1) (más fácil) Descarga el repo como archivo zip desde aquí: [gmdsi-workshop-chile2025](https://github.com/p-ortega/gmdsi-workshop-chile2025). Descomprime la carpeta y trabaja desde ahí.
- - (2) (recomendado; requiere familiaridad con git). Instala git siguiendo las instrucciones aquí: [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git). Regístrate en GitHub y luego clona el repo [gmdsi-workshop-chile2025](https://github.com/p-ortega/gmdsi-workshop-chile2025).
-
-**Instala Python y las dependencias:**
- - Si ya tienes Python instalado usando Anaconda, puedes saltarte este paso. Si no, instala [miniforge](https://github.com/conda-forge/miniforge?tab=readme-ov-file#download).
- - Si usas __Windows__: ve al menú inicio y abre "Anaconda prompt". Se abrirá una ventana de línea de comandos de anaconda. En __Linux__ o __MacOS__, simplemente usa la terminal estándar. Navega a la carpeta del repo del curso en tu máquina. Hazlo escribiendo "cd *tu ruta de carpeta*" y presionando < enter >. Reemplaza *tu ruta de carpeta* por la ruta donde tienes la carpeta del curso en tu compu.
- - Luego, escribe `mamba env create -f environment.yml` (o `conda env create -f environment.yml` si `mamba` no te funciona). Esto creará un entorno de anaconda llamado "dewater" e instalará las dependencias de python necesarias para el curso. Puede tardar un rato. Si quieres, puedes revisar el archivo *environment.yml* en la carpeta del repo para ver qué dependencias se van a instalar.
-
-**Inicia jupyter notebook**
-Vas a tener que hacer este paso cada vez que quieras abrir uno de los notebooks del curso.
-Para iniciar el jupyter notebook:
-- Windows: abre el Anaconda prompt y escribe `conda activate dewater`
-- Mac/Linux: abre una terminal y escribe `conda activate dewater`
-- Luego navega a la carpeta donde descargaste el repo del curso y escribe `jupyter notebook`
-Se debería iniciar una instancia de jupyter notebook dentro de la carpeta del repo. Usando el navegador, ahora puedes ir a la carpeta "tutorials", abrir uno ¡y ya estás listo!
-
 
 ## Installation Instructions
 
