@@ -3,7 +3,8 @@
 # Theory and Practice of Applied Predictive Groundwater Modeling
 Materials and tutorials for the synthetic dewatering model of White and others (2025)
 
-Materials are provided in English and Spanish!
+
+## Installation Instructions
 
 **Download the course repository:**
 
