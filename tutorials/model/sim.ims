@@ -6,14 +6,14 @@ BEGIN options
 END options
 
 BEGIN nonlinear
-  OUTER_DVCLOSE       0.000100000
+  OUTER_DVCLOSE       0.0000100000
   OUTER_MAXIMUM  100
 END nonlinear
 
 BEGIN linear
   INNER_MAXIMUM  100
-  INNER_DVCLOSE       0.000100000
-  inner_rclose       1.00000000  strict
+  INNER_DVCLOSE       0.0000100000
+  inner_rclose       0.01  strict
   LINEAR_ACCELERATION  bicgstab
   REORDERING_METHOD  none
 END linear
